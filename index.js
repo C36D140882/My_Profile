@@ -1,4 +1,9 @@
-const texts = ["Frontend Developer", "Designer", "Editer"];
+const texts = [
+  "Web Developer",
+  "Frontend Developer",
+  "Backend Developer",
+  "Python Developer",
+];
 let speed = 100;
 const textElements = document.querySelector(".text");
 let textIndex = 0;
