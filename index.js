@@ -28,3 +28,10 @@ function eraseText() {
   }
 }
 window.onload = typeWriter;
+
+function openWhatsApp() {
+  let phone = "6382790456";
+  let msg = "i need to project.";
+  let url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(msg);
+  window.open(url, "_blank");
+}
